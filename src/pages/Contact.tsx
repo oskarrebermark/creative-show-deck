@@ -6,15 +6,15 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      url: "https://linkedin.com/in/yourprofile",
-      username: "@yourprofile",
+      url: "www.linkedin.com/in/oskar-kallebo-rebermark",
+      username: "@oskar-kallebo-rebermark",
       color: "from-blue-600 to-blue-400",
     },
     {
       icon: Github,
       label: "GitHub",
-      url: "https://github.com/yourusername",
-      username: "@yourusername",
+      url: "https://github.com/oskarrebermark",
+      username: "@oskarrebermark",
       color: "from-gray-700 to-gray-500",
     },
     {
@@ -27,8 +27,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      url: "mailto:your.email@example.com",
-      username: "your.email@example.com",
+      url: "mailto:oskar.rebermark@gmail.com",
+      username: "oskar.rebermark@gmail.com",
       color: "from-red-500 to-pink-500",
     },
   ];
@@ -83,7 +83,7 @@ const Contact = () => {
               <div>
                 <h2 className="text-2xl font-semibold mb-2">Location & Availability</h2>
                 <p className="text-muted-foreground">
-                  Based in Your City, Country
+                  Based in Stockholm, Sweden
                 </p>
               </div>
             </div>
@@ -91,12 +91,12 @@ const Contact = () => {
             <div className="space-y-4 text-muted-foreground">
               <p>
                 I'm currently <span className="text-accent font-semibold">available</span> for 
-                freelance projects and full-time opportunities. Whether you have a project in mind 
+                master thesis projects and part-time opportunities. Whether you have a project in mind 
                 or just want to connect, I'd love to hear from you.
               </p>
               <p>
                 I typically respond within 24-48 hours. For urgent inquiries, 
-                LinkedIn is the fastest way to reach me.
+                email is the fastest way to reach me.
               </p>
             </div>
           </div>
@@ -113,7 +113,7 @@ const Contact = () => {
               className="bg-primary hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all group"
               asChild
             >
-              <a href="mailto:your.email@example.com">
+              <a href="mailto:oskar.rebermark@gmail.com">
                 <Mail className="w-5 h-5 mr-2" />
                 Send Me an Email
                 <Send className="ml-2 w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />

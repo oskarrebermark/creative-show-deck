@@ -1,56 +1,62 @@
 import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+import SummateImg from "../resources/SummatePresentation.png";
+import AIGFacesImg from "../resources/AIG_faces.png";
+import TracQuizImg from "../resources/tracQuizlogo.png";
+import NotDogsImg from "../resources/NotDogsBoxFolded.png";
+import AIG_Report from "../resources/Final Project report, PJ1_b.pdf";
+
 const Projects = () => {
   const projects = [
     {
-      title: "Project One",
-      description: "A comprehensive web application built with React and Node.js. Features include user authentication, real-time updates, and a responsive design.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
-      tags: ["React", "Node.js", "MongoDB"],
+      title: "Summate",
+      description: "The project centered around the concept of interdependence in hiking. Using the Double Diamond design framework, we explored logistical challenges faced by hikers, such as preparation and borrowing items.",
+      image: SummateImg,
+      tags: ["Figma", "Double Diamond", "Interaction Design"],
+      demo: "https://www.figma.com/proto/JI7gso7NeuaHWgyLZkHq8L/Summate?node-id=0-1&t=ILEH0shLTm3kZXvw-1",
+      github: "#",
+    },
+    {
+      title: "AIG Faces",
+      description: "This study investigated the differences in user perception when gym websites utilized AI-generated faces (AIG) versus real human faces. By embedding both types of faces into a gym website's user interface, the study analyzed how each impacted the perception of three dimensions.",
+      image: AIGFacesImg,
+      tags: ["Generative AI", "Interfaces", "Quantitative Study"],
+      demo: AIG_Report,
+      github: "#",
+    },
+    {
+      title: "TracQuiz",
+      description: "This project was centered on developing a dynamic web app from an original idea. By pasting a playlist, users are able to create a unique quiz that friends could join and play in a 'Kahoot-type' quiz.",
+      image: TracQuizImg,
+      tags: ["React", "Vite", "Firebase"],
+      demo: "https://musicquiz-852ea.web.app/",
+      github: "#",
+    },
+    {
+      title: "NotDogs",
+      description: "This project revolved around with designing different elements for an imaginary product of our choosing.",
+      image: NotDogsImg,
+      tags: ["Graphic Design", "", "Express"],
       demo: "#",
       github: "#",
     },
     {
-      title: "Project Two",
-      description: "An innovative mobile-first application that provides seamless user experience across all devices. Built with modern web technologies.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
-      tags: ["TypeScript", "Next.js", "Tailwind"],
-      demo: "#",
-      github: "#",
-    },
-    {
-      title: "Project Three",
-      description: "A data visualization dashboard that transforms complex data into intuitive and interactive charts. Perfect for business analytics.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80",
-      tags: ["React", "D3.js", "PostgreSQL"],
-      demo: "#",
-      github: "#",
-    },
-    {
-      title: "Project Four",
-      description: "An e-commerce platform with advanced features like payment integration, inventory management, and order tracking.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&auto=format&fit=crop&q=80",
-      tags: ["React", "Stripe", "Express"],
-      demo: "#",
-      github: "#",
-    },
-    {
-      title: "Project Five",
-      description: "A social media application with real-time messaging, post sharing, and user profiles. Built for scalability and performance.",
+      title: "WeatherEar",
+      description: "This project explored the possiblity of conveying weather information through soundbites for a more intuitive experience.",
       image: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=800&auto=format&fit=crop&q=80",
       tags: ["React", "WebSocket", "Redis"],
       demo: "#",
       github: "#",
     },
-    {
-      title: "Project Six",
-      description: "An AI-powered content generation tool that helps writers and marketers create engaging content efficiently.",
-      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&auto=format&fit=crop&q=80",
-      tags: ["React", "OpenAI", "Python"],
-      demo: "#",
-      github: "#",
-    },
+    // {
+    //   title: "Project Six",
+    //   description: "An AI-powered content generation tool that helps writers and marketers create engaging content efficiently.",
+    //   image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&auto=format&fit=crop&q=80",
+    //   tags: ["React", "OpenAI", "Python"],
+    //   demo: "#",
+    //   github: "#",
+    // },
   ];
 
   return (
@@ -96,14 +102,14 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-3 pt-2">
-                  <Button size="sm" variant="outline" className="flex-1 border-primary/20 hover:border-primary/40">
+                  {/* <Button size="sm" variant="outline" className="flex-1 border-primary/20 hover:border-primary/40">
                     <ExternalLink className="w-4 h-4 mr-2" />
                     Demo
                   </Button>
                   <Button size="sm" variant="outline" className="flex-1 border-primary/20 hover:border-primary/40">
                     <Github className="w-4 h-4 mr-2" />
                     Code
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </div>

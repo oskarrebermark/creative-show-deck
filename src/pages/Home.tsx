@@ -25,12 +25,11 @@ const Home = () => {
             
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
               Hi, I'm{" "}
-              <span className="gradient-text">Your Name</span>
+              <span className="gradient-text">Oskar Rebermark</span>
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-              A passionate developer crafting beautiful digital experiences. 
-              I specialize in building elegant solutions to complex problems.
+              Interactive Media Technology Student at KTH.
             </p>
           </div>
 
@@ -56,19 +55,17 @@ const Home = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
           <div className="space-y-4 text-muted-foreground text-lg">
             <p>
-              I'm a creative developer with a passion for building intuitive and 
-              engaging web applications. With expertise in modern technologies, 
-              I transform ideas into reality through clean code and thoughtful design.
+              Hi! I am a second year master's student in the 
+              Interactive Media Technology program at KTH Royal Institute of Technology.
             </p>
             <p>
-              My journey in development has been driven by curiosity and a constant 
-              desire to learn. I believe in writing code that not only works but is 
-              also maintainable, scalable, and elegant.
+              My first year revolved around interaction design subjects such as 
+              sound in interaction, dynamic web development, haptics and physical interaction.
             </p>
             <p>
-              When I'm not coding, you'll find me exploring new technologies, 
-              contributing to open source, or working on side projects that push 
-              my creative boundaries.
+            This semester, I am currently doing an exchange at Science Tokyo in Japan
+             where I am continuing the interaction design track and combining it with
+              courses on cyber-physical systems, software engineering, and computer graphics.
             </p>
           </div>
         </div>
@@ -79,9 +76,9 @@ const Home = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">Technical Skills</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {[
-            { title: "Frontend", skills: ["React", "TypeScript", "Tailwind CSS", "Next.js"] },
-            { title: "Backend", skills: ["Node.js", "Express", "PostgreSQL", "REST APIs"] },
-            { title: "Tools", skills: ["Git", "Docker", "VS Code", "Figma"] },
+            { title: "Frontend", skills: ["React", "JavaScript", "Tailwind CSS", "HTML"] },
+            { title: "Backend", skills: ["Node.js", "C#", "SQL", "REST APIs"] },
+            { title: "Tools", skills: ["GitHub", "VS Code", "Figma"] },
           ].map((category) => (
             <div key={category.title} className="glass-card rounded-xl p-6 hover:scale-105 transition-transform">
               <h3 className="text-xl font-semibold mb-4 text-primary">{category.title}</h3>
