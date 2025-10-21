@@ -1,35 +1,35 @@
-import { Camera, Music, Palette, Mountain, Book, Gamepad2 } from "lucide-react";
+import { Camera, Music, Palette, Mountain, Book, Gamepad2, MoveIcon, FilmIcon, HammerIcon } from "lucide-react";
 
 const Hobbies = () => {
   const hobbies = [
     {
-      icon: Camera,
-      title: "Photography",
-      description: "Capturing moments and exploring the world through my lens. I love landscape and street photography.",
-      color: "from-blue-500 to-cyan-500",
-    },
-    {
       icon: Music,
       title: "Music",
-      description: "Playing guitar and producing electronic music in my spare time. Music is my creative outlet.",
+      description: "While I can't play an instrument, I always listen to music and explore new genres.",
       color: "from-purple-500 to-pink-500",
+    },
+    {
+      icon: HammerIcon,
+      title: "DIY Woodworking",
+      description: "In my free time, I enjoy working with wood and buiding furniture pieces.",
+      color: "from-blue-500 to-cyan-500",
     },
     {
       icon: Palette,
       title: "Digital Art",
-      description: "Creating illustrations and experimenting with design tools. Art helps me think differently.",
+      description: "Creating illustrations and experimenting with design tools.",
       color: "from-orange-500 to-red-500",
     },
     {
       icon: Mountain,
       title: "Hiking",
-      description: "Exploring nature trails and mountains. Nothing beats a good hike to clear the mind.",
+      description: "Exploring nature trails and mountains. Nothing beats a good view to reset the mind.",
       color: "from-green-500 to-emerald-500",
     },
     {
-      icon: Book,
-      title: "Reading",
-      description: "Diving into sci-fi novels and technical books. Always learning something new every day.",
+      icon: FilmIcon,
+      title: "Movies & Series",
+      description: "Watching a variety of films and shows for relaxation and inspiration.",
       color: "from-indigo-500 to-purple-500",
     },
     {
@@ -48,7 +48,7 @@ const Hobbies = () => {
             My <span className="gradient-text">Hobbies</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Beyond coding, these are the activities that inspire me and keep me creative.
+            Beyond working/studying, these are the activities that inspire me and keep me creative.
           </p>
         </div>
 
@@ -84,8 +84,9 @@ const Hobbies = () => {
                 help me stay creative, manage stress, and approach problems from different angles.
               </p>
               <p>
-                Each hobby brings unique benefits: photography trains my eye for composition, 
-                music enhances my sense of rhythm and timing, hiking clears my mind, and 
+                Each hobby brings unique benefits: music fuels me creatively, woodworking sharpens my 
+                attention to detail, digital art enhances my visual thinking,
+                hiking clears my mind, and 
                 reading expands my perspective.
               </p>
               <p>

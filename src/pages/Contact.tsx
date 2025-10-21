@@ -6,7 +6,7 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      url: "www.linkedin.com/in/oskar-kallebo-rebermark",
+      url: "https://linkedin.com/in/oskar-kallebo-rebermark",
       username: "@oskar-kallebo-rebermark",
       color: "from-blue-600 to-blue-400",
     },
@@ -18,11 +18,11 @@ const Contact = () => {
       color: "from-gray-700 to-gray-500",
     },
     {
-      icon: Twitter,
-      label: "Twitter",
-      url: "https://twitter.com/yourhandle",
-      username: "@yourhandle",
-      color: "from-sky-500 to-blue-500",
+      icon: null,
+      label: "Threads",
+      url: "https://www.threads.com/@oskarrebermark",
+      username: "@oskarrebermark",
+      color: "from-gray-500 to-grey-800",
     },
     {
       icon: Mail,
@@ -61,7 +61,15 @@ const Contact = () => {
                 >
                   <div className="flex items-center gap-4">
                     <div className={`w-14 h-14 rounded-lg bg-gradient-to-br ${link.color} flex items-center justify-center`}>
-                      <Icon className="w-7 h-7 text-white" />
+                      {link.label === "Threads" ? (
+                        <img
+                          src="/src/resources/Threads.png"
+                          alt="Threads logo"
+                          className="w-7 h-7 object-contain invert"
+                        />
+                      ) : (
+                        <Icon className="w-7 h-7 text-white" />
+                      )}
                     </div>
                     <div className="flex-1">
                       <h3 className="text-xl font-semibold mb-1">{link.label}</h3>

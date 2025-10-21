@@ -37,7 +37,7 @@ const Projects = () => {
       title: "NotDogs",
       description: "This project revolved around with designing different elements for an imaginary product of our choosing.",
       image: NotDogsImg,
-      tags: ["Graphic Design", "", "Express"],
+      tags: ["Graphic Design", "Branding", "Affinity Designer"],
       demo: "#",
       github: "#",
     },
