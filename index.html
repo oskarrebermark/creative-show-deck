@@ -12,7 +12,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="/" />
 
-    <link rel="icon" type="image/png" href="/src/resources/tabLogo.png" />
+    <link rel="icon" type="image/png" href="public/weblogo.png" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@lovable_dev" />
@@ -21,6 +21,11 @@
 
   <body>
     <div id="root"></div>
+    <script>
+      if (!window.location.hash) {
+        window.location.replace(window.location.pathname + '/#/');
+      }
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
