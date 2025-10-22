@@ -42,8 +42,8 @@ const Projects = () => {
       github: "#",
     },
     {
-      title: "WeatherEar",
-      description: "This project explored the possiblity of conveying weather information through soundbites for a more intuitive experience.",
+      title: "Sunnify",
+      description: "This project explored the possibility of conveying weather information through soundbites for a more intuitive experience.",
       image: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=800&auto=format&fit=crop&q=80",
       tags: ["React", "WebSocket", "Redis"],
       demo: "#",
