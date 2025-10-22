@@ -101,12 +101,14 @@ const Projects = () => {
                   ))}
                 </div>
                 
-                <div className="flex gap-3 pt-2">
-                  {/* <Button size="sm" variant="outline" className="flex-1 border-primary/20 hover:border-primary/40">
-                    <ExternalLink className="w-4 h-4 mr-2" />
+                <div className="flex gap-3 pt-2 mt-auto">
+                  {project.demo !== "#" && (<Button size="sm" variant="outline" className="flex-1 border-primary/20 hover:border-primary/40">
+                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                    </a>
                     Demo
-                  </Button>
-                  <Button size="sm" variant="outline" className="flex-1 border-primary/20 hover:border-primary/40">
+                  </Button>)}
+                  {/* <Button size="sm" variant="outline" className="flex-1 border-primary/20 hover:border-primary/40">
                     <Github className="w-4 h-4 mr-2" />
                     Code
                   </Button> */}

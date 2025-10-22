@@ -63,7 +63,7 @@ const Contact = () => {
                     <div className={`w-14 h-14 rounded-lg bg-gradient-to-br ${link.color} flex items-center justify-center`}>
                       {link.label === "Threads" ? (
                         <img
-                          src="/src/resources/Threads.png"
+                          src="/Threads.png"
                           alt="Threads logo"
                           className="w-7 h-7 object-contain invert"
                         />
