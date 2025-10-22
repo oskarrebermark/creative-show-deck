@@ -18,14 +18,9 @@
 
   <body>
     <div id="root"></div>
-    <script>
-      if (!window.location.hash) {
-        const path = window.location.pathname.endsWith('/') 
-          ? window.location.pathname 
-          : window.location.pathname + '/';
-        window.location.replace(path + '#/');
-      }
-    </script>
+      <script>
+        if (!window.location.hash) window.location.replace('#/');
+      </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

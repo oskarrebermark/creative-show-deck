@@ -10,6 +10,8 @@ import Hobbies from "./pages/Hobbies";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import { Hash } from "lucide-react";
+import ScrollToTop from "@/components/ScrollToTop";
+
 
 const queryClient = new QueryClient();
 
@@ -19,6 +21,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <HashRouter>
+        <ScrollToTop />
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
