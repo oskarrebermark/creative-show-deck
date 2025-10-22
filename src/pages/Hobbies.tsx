@@ -10,7 +10,7 @@ const Hobbies = () => {
     },
     {
       icon: HammerIcon,
-      title: "DIY Woodworking",
+      title: "Woodworking",
       description: "In my free time, I enjoy working with wood and buiding furniture pieces.",
       color: "from-blue-500 to-cyan-500",
     },
