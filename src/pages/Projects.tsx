@@ -77,7 +77,7 @@ const Projects = () => {
               key={index}
               className="glass-card rounded-xl overflow-hidden group hover:scale-[1.02] transition-all duration-300"
             >
-              <div className="relative overflow-hidden aspect-video">
+              <div className="relative overflow-hidden aspect-video bg-white">
                 <img
                   src={project.image}
                   alt={project.title}
