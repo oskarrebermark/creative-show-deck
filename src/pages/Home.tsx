@@ -12,7 +12,7 @@ const Home = () => {
             <div className="absolute inset-0 blur-3xl opacity-30 bg-gradient-to-r from-primary to-accent rounded-full"></div>
             <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-br from-primary to-accent p-1">
               <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
-                <Zap size={64} className="animate-spin-reverse [animation-duration:10s]"/>
+                <Zap size={64} className="animate-spin [animation-duration:10s]"/>
               </div>
             </div>
           </div>

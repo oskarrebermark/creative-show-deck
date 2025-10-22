@@ -5,7 +5,7 @@ import path from "path";
 const repoName = "creative-show-deck";
 
 export default defineConfig({
-  base: `/${repoName}/`,
+  base: "/",
   plugins: [react()],
   resolve: {
     alias: {
