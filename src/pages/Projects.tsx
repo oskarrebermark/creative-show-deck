@@ -6,6 +6,8 @@ import AIGFacesImg from "../resources/AIG_faces.png";
 import TracQuizImg from "../resources/tracQuizlogo.png";
 import NotDogsImg from "../resources/NotDogsBoxFolded.png";
 import AIG_Report from "../resources/Final Project report, PJ1_b.pdf";
+import PomodorImg from "../resources/PomodoroTimer.png"
+import SunnifyImg from "../resources/Sunnify.png";
 
 const Projects = () => {
   const projects = [
@@ -15,14 +17,6 @@ const Projects = () => {
       image: SummateImg,
       tags: ["Figma", "Double Diamond", "Interaction Design"],
       demo: "https://www.figma.com/proto/JI7gso7NeuaHWgyLZkHq8L/Summate?node-id=0-1&t=ILEH0shLTm3kZXvw-1",
-      github: "#",
-    },
-    {
-      title: "AIG Faces",
-      description: "This study investigated the differences in user perception when gym websites utilized AI-generated faces (AIG) versus real human faces. By embedding both types of faces into a gym website's user interface, the study analyzed how each impacted the perception of three dimensions.",
-      image: AIGFacesImg,
-      tags: ["Generative AI", "Interfaces", "Quantitative Study"],
-      demo: AIG_Report,
       github: "#",
     },
     {
@@ -42,11 +36,27 @@ const Projects = () => {
       github: "#",
     },
     {
+      title: "Pomodoro Timer",
+      description: "To help me with study breaks I developed a simple pomodoro timer MacOS application using Swift and SwiftUI.",
+      image: PomodorImg,
+      tags: ["Swift", "MacOS", "Pomodoro Method"],
+      demo: "#",
+      github: "#",
+    },
+    {
       title: "Sunnify",
       description: "This project explored the possibility of conveying weather information through soundbites for a more intuitive experience.",
-      image: "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=800&auto=format&fit=crop&q=80",
+      image: SunnifyImg,
       tags: ["React", "WebSocket", "Redis"],
       demo: "#",
+      github: "#",
+    },
+    {
+      title: "AIG Faces",
+      description: "This study investigated the differences in user perception when gym websites utilized AI-generated faces (AIG) versus real human faces. By embedding both types of faces into a gym website's user interface, the study analyzed how each impacted the perception of three dimensions.",
+      image: AIGFacesImg,
+      tags: ["Generative AI", "Interfaces", "Quantitative Study"],
+      demo: AIG_Report,
       github: "#",
     },
     // {
