@@ -1,6 +1,7 @@
 import { ArrowRight, Code2, HomeIcon, IceCream, IceCream2, IceCream2Icon, Sparkles, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import ProfilePic from "../resources/CV_portrait.jpg";
 
 const Home = () => {
   return (
@@ -12,7 +13,8 @@ const Home = () => {
             <div className="absolute inset-0 blur-3xl opacity-30 bg-gradient-to-r from-primary to-accent rounded-full"></div>
             <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-br from-primary to-accent p-1">
               <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
-                <Zap size={64} className="animate-spin [animation-duration:10s]"/>
+                {/* <Zap size={80} className="animate-spin [animation-duration:10s]"/> */}
+                <img src={ProfilePic} alt="Profile picture" className="rounded-full" />
               </div>
             </div>
           </div>
