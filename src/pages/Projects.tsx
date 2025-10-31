@@ -56,7 +56,7 @@ const Projects = () => {
       description: "This study investigated the differences in user perception when gym websites utilized AI-generated faces (AIG) versus real human faces. By embedding both types of faces into a gym website's user interface, the study analyzed how each impacted the perception of three dimensions.",
       image: AIGFacesImg,
       tags: ["Generative AI", "Interfaces", "Quantitative Study"],
-      demo: AIG_Report,
+      demo: "#",
       github: "#",
     },
     // {
